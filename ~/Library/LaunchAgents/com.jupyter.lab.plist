@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.job</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/User/anaconda3/bin/jupyter</string>
+		<string>lab</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/tmp/local.job.err</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/local.job.out</string>
+</dict>
+</plist>
